@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^werewolfislandgame\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.werewolfislandgame\.com$
+RewriteRule ^/?$ "http\:\/\/werewolfisland\.com\/" [R=301,L]
+
